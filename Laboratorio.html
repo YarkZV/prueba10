@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="laboratorio.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cabecera">
+        <div style="width: 75%; margin: auto;">
+            <div style="float: left;"></div>
+            INMOBILIARIA CERTUS
+        </div>
+        <div style="float: right; padding: 10px;">
+            atencion@certus.edu.pe
+        </div>
+        <div>
+            <img src="img/banner2.jpg" width="100%" alt="">
+        </div>
+    </div>
+</div>
+<div class="cuerpo">
+    <div id="barra">
+        <p style="text-align: center; margin-bottom: 30px;" >Menú principal</p>
+        <ul>
+            <li><a href="#" onclick="mostrarPag('pagina1')">Oficina</a></11>
+                <li><a href="#" onclick="mostrarPag('pagina2')">Multifamiliar</a></li>
+                <li><a href="#" onclick="mostrarPag('pagina3')">Plano de interior</a></li>
+                <li><a href="#" onclick="mostrarPag('pagina3')">Habitacion para visitas</a></li>
+                <li><a href="#" onclick="cerrar();">Cerrar sesión</a></li>
+            </ul>
+
+    </div>
+    <div id="contenido">
+
+        <div id="pagina 1" class="pag active">
+            <h1>Plan de Oficina</h1>
+            <p>Capacidad 25 personas</p>
+            <img src="img/oficina.jpg" width="100%" alt="">
+        </div>
+        <div id="pagina2" class="pag" >
+            <h1>Modelo multifamiliar</h1>
+            <p>Cocina Dormitorio - Baño - Sala</p>
+                <img src="img/multifamiliar.jpg" width="100%" alt="">
+        </div>
+        <div id="pagina3" class="pag">
+            <h1>Interior del edificio</h1>
+            <p>Interior amoblado con piscina</p>
+            <img src="img/frontis.jpg" width="100%" alt="">
+        </div>
+    </div>
+</div>
+    <div class="pie">
+        <div style="width: 100%;"></div>
+        <div style="text-align: center;">
+            Autor: Yasser Zapata Velasquez<br>
+            Instituto: CERTUS | Carreras técnicas y Educación continua
+        </div>
+    </div>
+</div>
+    <script src="js/funciones.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While - ejemplo 02</title>
+</head>
+<body>
+    <script>
+        //---------------------------------------------
+        //Ingresar 4 numeros y mostrar la suma de ellos
+        //---------------------------------------------
+        let num = 0; //Inicializar 
+        let k=1; //Variable contador
+        let xsuma = 0 //Variable acumulador      
+        while(k<=4){
+            num = parseInt(prompt("Ingrese número : "))
+            xsuma=xsuma+num;
+            document.write(num + "<br>")
+            k = k + 1;
+        }
+        document.write("La suma es : " + xsuma);
+    </script>
+</body>
+</html>
